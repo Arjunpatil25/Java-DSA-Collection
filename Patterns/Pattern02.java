@@ -4,13 +4,13 @@ public class Pattern02 {
     while (i >= 1) {
       int j = 1;
       while (j <= i) {
-        System.out.print(" ");
+        System.out.print("  #");
         j++;
 
       }
       int c = 5;
       while (c >= j) {
-        System.out.print(" *");
+        System.out.print("  *");
         c--;
       }
 
